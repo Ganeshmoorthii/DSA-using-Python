@@ -48,3 +48,13 @@ Constraints:**
 -123
 120
 ```
+
+---
+
+## Submission — 17 Jul 2026, 11:20 am (PYTHON3)
+
+```py
+123
+-123
+120
+```
