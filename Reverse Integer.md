@@ -58,3 +58,19 @@ Constraints:**
 -123
 120
 ```
+
+---
+
+## Submission — 17 Jul 2026, 11:27 am (PYTHON3)
+
+```py
+class Solution:
+    def reverse(self, x: int) -> int:
+        isNeg=x<0
+        x = -x if isNeg else x
+        res = int(str(x)[::-1])
+        if res < -2**31 or res > 2**31-1:
+            return 0
+        return -res if isNeg else res
+
+```
